@@ -14,20 +14,6 @@ form {
     margin-top: 0em;
 }
 label {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    display: inline-block;
-    width: 300px;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-left: 20px;
-    font-size: 1.5em;
-}
-
-input[type='text'], {
-=======
->>>>>>> f8e024a4354e29aef842a0a6054af7806628e17e
 	display: inline-block;
 	width: 300px;
 	font-weight: bold;
@@ -37,24 +23,12 @@ input[type='text'], {
 }
 
 input{
-<<<<<<< HEAD
-=======
->>>>>>> 2687c0f6d21c289303d1feb6b3eb206086f5a0f7
->>>>>>> f8e024a4354e29aef842a0a6054af7806628e17e
     height: 25px;
     width: 50%;
     border: 1px solid #CCC;
     border-radius: 5px;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 2687c0f6d21c289303d1feb6b3eb206086f5a0f7
->>>>>>> f8e024a4354e29aef842a0a6054af7806628e17e
 option {
     font-weight: normal;
     display: block;
@@ -63,22 +37,6 @@ option {
     min-height: 1.2em;
     padding: 0px 2px 1px;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-button {
-    width: 200px;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: 450px;
-}
-
-input[name='HTML'], input[id='itse'] {
-    margin-left: 3px;
-}
-
-=======
->>>>>>> f8e024a4354e29aef842a0a6054af7806628e17e
 
 .inline {
     width: unset;
@@ -95,8 +53,4 @@ button{
 }
 textarea {
     margin-left: 325px;
-<<<<<<< HEAD
-=======
->>>>>>> 2687c0f6d21c289303d1feb6b3eb206086f5a0f7
->>>>>>> f8e024a4354e29aef842a0a6054af7806628e17e
 }
