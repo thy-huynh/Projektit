@@ -6,6 +6,7 @@ main {
     display: flex;
     overflow: hidden;
     background: #f7dea3;
+    background-color: deeppink;
     text-align: center;
 }
 
