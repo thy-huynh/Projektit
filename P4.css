@@ -14,22 +14,15 @@ form {
     margin-top: 0em;
 }
 label {
-    display: inline-block;
-    width: 300px;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-left: 20px;
-    font-size: 1.5em;
+	display: inline-block;
+	width: 300px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size: 1.5em;
 }
 
-label[for='itse'], label[for='yritys'], label[for='lahjakortti']{
-	font-weight: 100;
-	margin-top: -10px;
-
-}
-
-input
-{
+input{
     height: 25px;
     width: 50%;
     border: 1px solid #CCC;
@@ -44,9 +37,20 @@ option {
     min-height: 1.2em;
     padding: 0px 2px 1px;
 }
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: right;
+    margin-left: 325px;
+}
+
 button{
-    width: 200px;
-    padding: 10px;
-    border-radius: 10px;
+	width: 200px;
+	padding: 10px;
+	border-radius: 10px;
 	margin-left: 325px;
+}
+textarea {
+    margin-left: 325px;
 }

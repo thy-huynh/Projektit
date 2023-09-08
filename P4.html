@@ -15,42 +15,46 @@
 	</ul>
 	<h1>Koulutukseen ilmoittautuminen</h1>
 	<form>
-		<label for="Sukunimi">Sukunimi:</label>
-		<input type="text" name="Sukunimi" value>
+			<label for="Sukunimi">Sukunimi:</label>
+			<input type="text" name="Sukunimi" value>
 		<br>
-		<label for="Etunimet">Etunimet:</label>
-		<input type="text" name="Etunimet" value>
+			<label for="Etunimet">Etunimet:</label>
+			<input type="text" name="Etunimet" value>
 		<br>
-		<label for="Syntymäaika">Syntymäaika:</label>
-		<input type="text" name="Syntymäaika" value>
+			<label for="Syntymäaika">Syntymäaika:</label>
+			<input type="text" name="Syntymäaika" value>
 		<br>
-		<label for="Osoite">Osoite:</label>
-		<input type="text" name="Osoite" value>
+			<label for="Osoite">Osoite:</label>
+			<input type="text" name="Osoite" value>
 		<br>
-		<label for="Puhelin">Puhelin:</label>
-		<input type="text" name="Puhelin" value>
+			<label for="Puhelin">Puhelin:</label>
+			<input type="text" name="Puhelin" value>
 		<br>
-		<label for="Sähköposti">Sähköposti:</label>
-		<input type="text" name="Sähköposti" value>
+			<label for="Sähköposti">Sähköposti:</label>
+			<input type="text" name="Sähköposti" value>
 		<br>
-		<label for="Sähköposti">Sähköposti:</label>
-		  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-		  <label for="vehicle1"> I have a bike</label><br>
-		  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-		  <label for="vehicle2"> I have a car</label><br>
-		  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-		  <label for="vehicle3"> I have a boat</label><br><br>
-		  <input type="submit" value="Submit">
+			<label for="Työnantaja/Oppilaitos">Työnantaja/Oppilaitos:</label>
+			<input type="text" name="Työnantaja/Oppilaitos" value>
 		<br>
-		<label for="Erikoisruokavalio">Erikoisruokavalio:</label>
-		<select id="Erikoisruokavalio">
-                <option value="Lakstoosi">Laktoosi intorelanssi</option>
-                <option value="Keliakia">Keliakia</option>
-                <option value="Kasvis">Kasvis</option>
+			<label for="Työtilanne">Työtilanne:</label><br>
+
+            <input type="checkbox" name="Töissä" id="Töissä" class="inline">
+            <label for="Töissä">Töissä</label><br>
+
+            <input type="checkbox" name="Opiskelija" id="Opiskelija" class="inline">
+            <label for="Opiskelija">Opiskelija</label><br>
+            <input type="checkbox" name="Työtön" id="Työtön" class="inline">
+            <label for="Työtön">Työtön</label>
+		<br>
+			<label for="Maksu">Maksu:</label>
+			<select id="Maksu">
+                <option value="Itse">Maksan itse</option>
+                <option value="Yritys">Yriys maksaa</option>
+                <option value="Lahja">Lahjakortti</option>
         </select>
-			<br>
-		<label for="lisatiedot">Lisätietoja:</label>
-		<textarea name="lisatiedot" id="" cols="55" rows="10"></textarea>
+		<br>
+			<label for="lisatiedot">Lisätietoja/Erikoisruokavaliot:</label>
+			<textarea name="lisatiedot" cols="55" rows="10"></textarea>
 		<button>Lähetä lomake</button>
 	</form> 
 </main>
